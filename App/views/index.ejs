@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container ">
+        <div class="row justify-content-center d-flex align-items-center">
+            <form action="http://localhost:4000/usuario" method="POST" class="form p-5">
+                <div class="form-group">
+                    <label for="">Nome:</label>
+                    <input type="text" class="form-control" name="nome" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="">E-mail:</label>
+                    <input type="text" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                </div>
+                <div class="form-group">
+                    <label for="">Senha:</label>
+                    <input type="password" class="form-control" name="senha" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sua senha">
+                </div>
+                <div class="form-group">
+                    <input id="submit" type="submit" class="form-control">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
