@@ -23,7 +23,7 @@ app.post('/usuario', (req, res)=>{
           console.log("Inserido :)")
         }
       })
-      
+      res.send(req.body)
 })
 
 app.get('/usuario', (req, res)=>{
